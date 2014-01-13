@@ -1,4 +1,6 @@
 Superfantastic::Application.routes.draw do
+  root :to => 'StaticPages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
