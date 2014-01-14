@@ -2,3 +2,51 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/* style.scss */
+$blueish: #286989;
+$greenflow: #1FE5C4;
+$mintflow: #B8E5C4;
+$rosaranja: #FF7372;
+$orangeflow: #FF4F45;
+$mustardflow: #F0CC47;
+$lightgray: #E6E6E6;
+$lightestgray: #F2F2F2;
+$lightcream: #f8f5ef;
+$gray: #474747;
+
+#folding html, p, h1, body {
+	height: 100%;
+	background: $lightcream;
+	color: $gray;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container {
+	margin: 300px 0 0 0;
+}
+
+#logo {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 640px;
+}
+
+#valueproposition {
+	margin: 0;
+	padding: 20px;
+	width: 500px;
+}
+
+.button a{
+	color: white;
+	padding: 8px 32px 8px 32px;
+	margin: 0;
+	background: $orangeflow;
+	border: 1px;
+	border-radius: 32px;
+	text-decoration: none;
+}
+
+.mintext small {
+	color: $gray;
+}
