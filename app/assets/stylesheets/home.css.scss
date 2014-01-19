@@ -14,15 +14,30 @@ $lightestgray: #F2F2F2;
 $lightcream: #f8f5ef;
 $gray: #474747;
 
-#folding html, p, h1, body {
-	height: 100%;
-	background: $lightcream;
+h1 {
 	color: $gray;
 	font-family: 'PT Sans Narrow', sans-serif;
+	line-height: 1em;
+	letter-spacing: 0.0625em;
+	font-size: 4em;
+}
+
+p {
+	color: $gray;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.2em;
+	letter-spacing: 0.0625em;
+	font-size: 12pt;
+}
+
+#folding html, body {
+	height: 100%;
+	background: $lightcream;
+
 }
 
 .container {
-	width:1200px;
+	width:auto;
     height:200px;
     position:absolute;
     left:50%;
@@ -31,16 +46,16 @@ $gray: #474747;
 }
 
 #logo {
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-	width: 640px;
+	margin: 24px 0 0 0;
+	padding: 0;
+	width: auto;
 	float: right;
 }
 
 #valueproposition {
-	margin: 0 0 0 0;
-	padding: 20px;
-	width: 500px;
+	margin: 0;
+	padding: 0;
+	width: 640px;
 	float: left;
 }
 
@@ -68,3 +83,7 @@ $gray: #474747;
 	position: absolute;
 	color: gray;
 }
+
+
+
+
