@@ -17,7 +17,9 @@
     <%= f.input :message, label: false, placeholder: 'Mensaje', as: :text, input_html: { rows: "5"} %>
     <%= f.input :twitter, label: false, placeholder: 'Twitter', as: :text, input_html: { rows: "1"} %>
     <%= f.input :website, label: false, placeholder: 'Sitio web', as: :text, input_html: { rows: "1"} %>
-    <div class="button">
-    <%= f.button :submit, 'Enviar mensaje', class: "button" %>
-  </div>
+    <div class="sendit">
+      <br/>
+      <%= f.button :submit, 'Enviar mensaje' %>
+    </div>
+    <br/>
 <% end %>

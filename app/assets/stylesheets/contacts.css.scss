@@ -36,18 +36,18 @@ $gray: #474747;
 	height: 50px;
 }
 
-.sendit input[type=button] {
+.sendit input[type=submit] {
     color:white;
-    background: $greenflow; 
-    font:2.4em 'Roboto', sans-serif;
+    background: $orangeflow; 
+    font: 1.2em'Roboto', sans-serif;
+    border: none;
+    padding: 24px;
+    width: 450px;
+    border: 1px;
+	border-radius: 100px;
 }
 
-.sendit input[type=button]:hover {
-    background-color:rgba(255,204,0,0.8);
-}
-
-.contactform {
-	float: center;
-	margin: center;
-	content: center;
+.sendit input[type=submit]:hover {
+    background: $rosaranja;
+    transition: .8s;
 }
