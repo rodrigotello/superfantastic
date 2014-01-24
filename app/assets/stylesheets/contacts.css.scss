@@ -1,3 +1,53 @@
 // Place all the styles related to the Contacts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* style.scss */
+$blueish: #286989;
+$greenflow: #1FE5C4;
+$mintflow: #B8E5C4;
+$rosaranja: #FF7372;
+$orangeflow: #FF4F45;
+$mustardflow: #F0CC47;
+$lightgray: #E6E6E6;
+$lightestgray: #F2F2F2;
+$lightcream: #f8f5ef;
+$gray: #474747;
+
+.yourinfo input, textarea, select {
+	width: 450px;
+	height: 50px;
+	padding: 25px 0 0 25px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.2em;
+	letter-spacing: 0.0625em;
+	font-size: 12pt;
+	border-color: $lightgray;
+	resize: none;
+}
+
+.yourinfo:active { 
+    outline: none;
+    border-color: solid $greenflow;
+}
+
+.sendbutton {
+	width: 450px;
+	height: 50px;
+}
+
+.sendit input[type=button] {
+    color:white;
+    background: $greenflow; 
+    font:2.4em 'Roboto', sans-serif;
+}
+
+.sendit input[type=button]:hover {
+    background-color:rgba(255,204,0,0.8);
+}
+
+.contactform {
+	float: center;
+	margin: center;
+	content: center;
+}

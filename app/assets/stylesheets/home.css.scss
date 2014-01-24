@@ -22,7 +22,15 @@ h1 {
 	font-size: 4em;
 }
 
-p {
+h2 {
+	color: $gray;
+	font-family: 'PT Sans Narrow', sans-serif;
+	line-height: 1em;
+	letter-spacing: 0.06em;
+	font-size: 3em;
+}
+
+p, a {
 	color: $gray;
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.2em;
@@ -59,7 +67,7 @@ p {
 	float: left;
 }
 
-.button a{
+.button a, button{
 	color: white;
 	padding: 8px 32px 8px 32px;
 	margin: 0;
@@ -86,4 +94,51 @@ p {
 
 
 
+
+
+
+
+.splash-container {
+  background: $lightcream;
+  z-index: 1;
+  overflow: hidden;
+  /* The following styles are required for the "scroll-over" effect */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed !important;
+}
+
+.splash {
+  /* absolute center .splash within .splash-container */
+  width: 80%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* This is the main heading that appears on the blue section */
+
+.splash-head {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 1em 1.6em;
+  font-weight: 100;
+  border-radius: 5px;
+  line-height: 1em;
+}
+
+/* This is the subheading that appears on the blue section */
+
+.splash-subhead {
+  opacity: 0.8;
+}
 
